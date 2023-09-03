@@ -1,0 +1,204 @@
+html{
+  margin: 0px;
+  padding: 0px;
+  background-image: url(https://w.wallhaven.cc/full/eo/wallhaven-eo773r.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+h1{
+  font-family: 'Poppins', sans-serif;
+  font-size: 102px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.home-class{
+  font-family: 'Poppins', sans-serif;
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+  color: rgb(0, 0, 0);
+}
+.section-home{
+  background-image: url();
+}
+.img-home{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50%;
+}
+
+.img-intro{
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: space-evenly;
+}
+
+h2{
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+}
+
+p{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff
+}
+
+.web-page-layout{
+  max-width: 1920px;
+  width: 100%;
+  height: 81vh;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column-reverse;
+  box-sizing: border-box;
+} 
+
+#Welcome{
+  outline: none;
+  height: 100px;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  font-size: 32px;
+  font-weight: bold; 
+  pointer-events: all;
+  cursor: pointer;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: transparent;
+  padding: 5px 0px 80px 20px;
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+}
+
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar li{
+  list-style: none;
+  padding: 0px 20px;
+  position: relative;
+}
+
+.navbar li a{
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  transition: 0.3s ease-in-out;
+}
+
+.navbar li a:hover{
+  color: #32CD32;
+}
+
+.navbar li a:hover::after{
+  content: "";
+  width: 40%;
+  height: 2px;
+  background: #32CD32;
+  position: absolute;
+  bottom: -4px;
+  left: 20px;
+}
+
+form{
+  display: block;
+  background-color: #fff;
+  box-shadow: 1px 1px 3px 2px #ddd;
+  margin: 40px auto;
+  max-width: 900px;
+  max-height: 900px;
+}
+
+form h1{
+  color: black;
+  font-size: 60px;
+}
+
+form input, textarea{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 20px auto;
+  padding: 10px;
+  font-family: "Poppins";
+  background-color: #f1f1f1;
+  border: 1px solid #ddd;
+}
+
+form span{
+  color: rgb(29,185,239)
+}
+
+form button{
+  height: 25px;
+  width: 70px;
+  align-items: center;
+  border: none;
+  background-color: rgb(29,185,239);
+  color: #fff;
+  font-family: "Poppins";
+  cursor: pointer;
+}
+
+form div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+}
+
+.card-body{
+  margin: 10px 0px;
+  border: 1px solid #fff;
+}
+
+.card-title{
+  font-size: 50px;
+  padding: 0px;
+  color: #FFD971;
+  margin: 10px;
+}
+
+img{
+  padding: 20px;
+  width: 30%;
+  height: 20%;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  object-fit: contain;
+  box-sizing: border-box;
+  border: none;
+  flex-wrap: nowrap;
+
+}
+
+.img-container{
+  display: flex;
+  object-fit: contain;
+  min-width: 720px;
+  column-gap: 20px;
+}
