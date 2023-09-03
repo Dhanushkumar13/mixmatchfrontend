@@ -1,7 +1,7 @@
 import React,{useState, useEffect} from "react";
 import Axios from 'axios';
 
-function contact(){
+function Contact(){
     const url="https://mix-match.onrender.com/api/contact/create/"
     const [data,setData] = useState({
         contactName: "",
@@ -36,10 +36,10 @@ function contact(){
         <form onSubmit={(e)=> handleSubmit(e)}> 
             {/* method='post'onSubmit={handleSubmit} */}
             <h1>Contact <span> Us </span></h1>
-            <input type="title" id="title"  onChange={(e)=>handleChange} value={contact.title} placeholder="John"></input>
-            <input type="email" id="email"  onChange={(e)=>handleChange} value={contact.email} placeholder="example@gmail.com"></input>
-            <input type="text" name="subject" id="subject"  onChange={(e)=>handleChange} value={contact.subject} placeholder="Enter Subject"></input>
-            <textarea name="message" id="message" cols="30" rows="10"  onChange={(e)=>handleChange} value={contact.message} placeholder="Enter Message"/>
+            <input type="title" id="title"  onChange={(e)=>handleChange} value={Contact.title} placeholder="John"></input>
+            <input type="email" id="email"  onChange={(e)=>handleChange} value={Contact.email} placeholder="example@gmail.com"></input>
+            <input type="text" name="subject" id="subject"  onChange={(e)=>handleChange} value={Contact.subject} placeholder="Enter Subject"></input>
+            <textarea name="message" id="message" cols="30" rows="10"  onChange={(e)=>handleChange} value={Contact.message} placeholder="Enter Message"/>
             <div>
             <button type="submit" className="submit-btn">Send</button>
             </div>
@@ -47,4 +47,4 @@ function contact(){
     )
 };
 
-export default contact;
+export default Contact;

@@ -1,7 +1,7 @@
 import React,{useState, useEffect} from "react";
 import Card from '../Cards/cards';
 
-function select(){
+function Select(){
 
     const [select,setSelect] = useState([]);
 
@@ -33,4 +33,4 @@ function select(){
     )
     }
 
-export default select;
+export default Select;

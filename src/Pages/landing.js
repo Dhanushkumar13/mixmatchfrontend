@@ -3,7 +3,7 @@ import BasicButtons from "../Elements/BasicButtons";
 import { useNavigate } from 'react-router-dom';
 
 
-function landing(){
+function Landing(){
     const navigate = useNavigate();
     return <section className="web-page-layout">
         <div className="onboarding-page-container">
@@ -16,4 +16,4 @@ function landing(){
     </section>
 };
 
-export default landing;
+export default Landing;
