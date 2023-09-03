@@ -1,7 +1,6 @@
 import React from "react";
-import header from '../Components/Header/header';
 
-function home(){
+function Home(){
     return (
         <section className="section-home">
             <div className="img-home">
@@ -18,4 +17,4 @@ function home(){
 
 }
 
-export default home;
+export default Home;

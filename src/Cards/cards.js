@@ -1,7 +1,6 @@
-import React,{useState} from "react";
+import React from "react";
 
 function Card({background=" ", data={} }){
-    const [image,setImage] = useState([])
     return(
         <div className="card" style={{"width": "100%"}}>
             <div className="card-body">
