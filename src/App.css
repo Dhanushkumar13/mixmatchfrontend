@@ -11,12 +11,12 @@ h1{
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #fff;
+  color: #ffa500;
 }
 
 .home-class{
   font-family: 'Poppins', sans-serif;
-  font-size: 50px;
+  font-size: 90px;
   display: flex;
   align-items: center;
   color: rgb(0, 0, 0);
@@ -119,8 +119,8 @@ nav{
 
 form{
   display: block;
-  background-color: #fff;
-  box-shadow: 1px 1px 3px 2px #ddd;
+  /* background-color: #fff; */
+  /* box-shadow: 1px 1px 3px 2px #ddd; */
   margin: 40px auto;
   max-width: 900px;
   max-height: 900px;
@@ -199,4 +199,11 @@ img{
   object-fit: contain;
   min-width: 720px;
   column-gap: 20px;
+}
+
+.color-img{
+  display: flex;
+  height: 500px;
+  width: 100%;
+  box-sizing: border-box;
 }
