@@ -1,7 +1,8 @@
 html{
   margin: 0px;
   padding: 0px;
-  background-image: url(https://w.wallhaven.cc/full/eo/wallhaven-eo773r.jpg);
+  background-color: #8458B3;
+  /* background-image: url(https://w.wallhaven.cc/full/eo/wallhaven-eo773r.jpg); */
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -15,7 +16,7 @@ h1{
 }
 
 .home-class{
-  font-family: 'Poppins', sans-serif;
+  font-family: 'noto Sans';
   font-size: 90px;
   display: flex;
   align-items: center;

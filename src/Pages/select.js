@@ -19,7 +19,7 @@ function Select(){
     },[]);
 
     return (
-        <section>
+        <section style={{backgroundImage: ""}}>
                 <h1 style={{color:"#FFD971"}}>Select the right match for you💃</h1>
                 <p style={{fontFamily:"Poppins" ,color:"#FFD971"}}>for each and everyday!</p>
                 <div className="categories-listing-section">

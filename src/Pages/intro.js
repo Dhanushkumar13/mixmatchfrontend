@@ -7,7 +7,8 @@ function intro(){
             height:"50vh",
         }}></img>
         <h1 className="intro-title" style={{
-            color: "black"
+            color: "black",
+            fontFamily: "noto Sans"
         }}>What is MixMatch?</h1>
     </div>
     <div>
